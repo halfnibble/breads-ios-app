@@ -11,6 +11,15 @@
 		9E6C0FDF2A076E35007257F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C0FDE2A076E35007257F9 /* ContentView.swift */; };
 		9E6C0FE12A076E36007257F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E6C0FE02A076E36007257F9 /* Assets.xcassets */; };
 		9E6C0FE42A076E36007257F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E6C0FE32A076E36007257F9 /* Preview Assets.xcassets */; };
+		9E6C0FEC2A076FB3007257F9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9E6C0FEB2A076FB3007257F9 /* Alamofire */; };
+		9E6C0FF02A07709B007257F9 /* Bread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C0FEF2A07709B007257F9 /* Bread.swift */; };
+		9E6C0FF22A0770FF007257F9 /* BreadAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C0FF12A0770FF007257F9 /* BreadAPI.swift */; };
+		9E6C0FF42A077157007257F9 /* BreadsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C0FF32A077157007257F9 /* BreadsViewModel.swift */; };
+		9E6C0FF62A077184007257F9 /* BreadListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C0FF52A077184007257F9 /* BreadListView.swift */; };
+		9E6C0FFB2A077B06007257F9 /* URLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C0FFA2A077B06007257F9 /* URLImageView.swift */; };
+		9E6C0FFD2A077D3A007257F9 /* BreadEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C0FFC2A077D3A007257F9 /* BreadEditView.swift */; };
+		9E6C0FFF2A077E20007257F9 /* BreadDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C0FFE2A077E20007257F9 /* BreadDetailView.swift */; };
+		9E6C10012A078700007257F9 /* BreadCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C10002A078700007257F9 /* BreadCreateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		9E6C0FDE2A076E35007257F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E6C0FE02A076E36007257F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E6C0FE32A076E36007257F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E6C0FEF2A07709B007257F9 /* Bread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Bread.swift; path = models/Bread.swift; sourceTree = "<group>"; };
+		9E6C0FF12A0770FF007257F9 /* BreadAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BreadAPI.swift; path = controllers/BreadAPI.swift; sourceTree = "<group>"; };
+		9E6C0FF32A077157007257F9 /* BreadsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BreadsViewModel.swift; path = controllers/BreadsViewModel.swift; sourceTree = "<group>"; };
+		9E6C0FF52A077184007257F9 /* BreadListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BreadListView.swift; path = views/BreadListView.swift; sourceTree = "<group>"; };
+		9E6C0FF72A077498007257F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9E6C0FFA2A077B06007257F9 /* URLImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = URLImageView.swift; path = views/URLImageView.swift; sourceTree = "<group>"; };
+		9E6C0FFC2A077D3A007257F9 /* BreadEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BreadEditView.swift; path = views/BreadEditView.swift; sourceTree = "<group>"; };
+		9E6C0FFE2A077E20007257F9 /* BreadDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BreadDetailView.swift; path = views/BreadDetailView.swift; sourceTree = "<group>"; };
+		9E6C10002A078700007257F9 /* BreadCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BreadCreateView.swift; path = views/BreadCreateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E6C0FEC2A076FB3007257F9 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +70,17 @@
 		9E6C0FDB2A076E35007257F9 /* breads */ = {
 			isa = PBXGroup;
 			children = (
+				9E6C0FF72A077498007257F9 /* Info.plist */,
 				9E6C0FDC2A076E35007257F9 /* breadsApp.swift */,
 				9E6C0FDE2A076E35007257F9 /* ContentView.swift */,
+				9E6C0FEF2A07709B007257F9 /* Bread.swift */,
+				9E6C0FFA2A077B06007257F9 /* URLImageView.swift */,
+				9E6C0FF12A0770FF007257F9 /* BreadAPI.swift */,
+				9E6C0FFC2A077D3A007257F9 /* BreadEditView.swift */,
+				9E6C10002A078700007257F9 /* BreadCreateView.swift */,
+				9E6C0FFE2A077E20007257F9 /* BreadDetailView.swift */,
+				9E6C0FF32A077157007257F9 /* BreadsViewModel.swift */,
+				9E6C0FF52A077184007257F9 /* BreadListView.swift */,
 				9E6C0FE02A076E36007257F9 /* Assets.xcassets */,
 				9E6C0FE22A076E36007257F9 /* Preview Content */,
 			);
@@ -83,6 +111,9 @@
 			dependencies = (
 			);
 			name = breads;
+			packageProductDependencies = (
+				9E6C0FEB2A076FB3007257F9 /* Alamofire */,
+			);
 			productName = breads;
 			productReference = 9E6C0FD92A076E35007257F9 /* breads.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +142,9 @@
 				Base,
 			);
 			mainGroup = 9E6C0FD02A076E35007257F9;
+			packageReferences = (
+				9E6C0FEA2A076FB3007257F9 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 9E6C0FDA2A076E35007257F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +171,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E6C0FFB2A077B06007257F9 /* URLImageView.swift in Sources */,
+				9E6C0FFF2A077E20007257F9 /* BreadDetailView.swift in Sources */,
 				9E6C0FDF2A076E35007257F9 /* ContentView.swift in Sources */,
+				9E6C0FF62A077184007257F9 /* BreadListView.swift in Sources */,
+				9E6C0FF42A077157007257F9 /* BreadsViewModel.swift in Sources */,
+				9E6C0FF22A0770FF007257F9 /* BreadAPI.swift in Sources */,
+				9E6C0FFD2A077D3A007257F9 /* BreadEditView.swift in Sources */,
+				9E6C0FF02A07709B007257F9 /* Bread.swift in Sources */,
 				9E6C0FDD2A076E35007257F9 /* breadsApp.swift in Sources */,
+				9E6C10012A078700007257F9 /* BreadCreateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +311,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"breads/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = breads/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +340,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"breads/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = breads/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -337,6 +381,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9E6C0FEA2A076FB3007257F9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9E6C0FEB2A076FB3007257F9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9E6C0FEA2A076FB3007257F9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9E6C0FD12A076E35007257F9 /* Project object */;
 }
